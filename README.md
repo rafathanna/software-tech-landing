@@ -42,7 +42,7 @@ The project is structured using reusable React components, separating UI section
 
 
 ## 🔹 Live Preview
-👉 **Live Demo:**sowftware-tech-landing.netlify.app/
+👉 **Live Demo:**https://sowftware-tech-landing.netlify.app/
 
 
 ## 🔹 Repository
