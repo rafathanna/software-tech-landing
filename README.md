@@ -1,5 +1,5 @@
 
-# Software / Tech Landing Page
+# Software Tech Landing Page
 
 A clean and responsive landing page built as part of a Front-End Developer technical task.
 
