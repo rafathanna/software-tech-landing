@@ -1,0 +1,74 @@
+/* ===== Navbar Base ===== */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background: var(--bg);
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+
+/* ===== Nav Links ===== */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+
+.nav-links a:hover,
+.nav-links a.active {
+  color:var(--primary);
+}
+
+/* ===== Hamburger Icon ===== */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  margin-right: -30px;
+}
+
+/* Media Query: Mobile/Tablet */
+@media (max-width: 768px) {
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh; 
+    width: 180px;
+    background: var(--bg);
+    flex-direction: column;
+    padding: 60px 10px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+    z-index: 999;
+  }
+
+  .nav-links.open {
+    transform: translateX(0);
+  }
+
+  .hamburger {
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+  }
+}
