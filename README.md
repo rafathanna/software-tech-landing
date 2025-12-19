@@ -40,8 +40,10 @@ The project is structured using reusable React components, separating UI section
 - Accessible form inputs
 - Lighthouse-friendly structure
 
+
 ## 🔹 Live Preview
-👉 **Live Demo:** sowftware-tech-landing.netlify.app/
+👉 **Live Demo:** https://software-tech-landing.netlify.app/
+
 
 ## 🔹 Repository
 👉 **GitHub Repo:** https://github.com/rafathanna/software-tech-landing
